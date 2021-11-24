@@ -16,17 +16,22 @@ The examples are representative of my thinking and coding style.
 
 ### Prerequisites
 
-The project requires `golang 1.15.5`, but any reasonably current version of Golang will likely work.  I tend to code done the middle of any language specification.
+The project requires `golang 1.17.3`, but any reasonably current version of Golang will likely work.  I tend to code done the middle of any language specification.
 
-If you use a Golang manager that responds to `.tool-versions`, you should be switched to `1.15.5` automatically. I recommend [ASDF](https://github.com/asdf-vm/asdf) for those on platforms that support it.
+If you use a Golang manager that responds to `.tool-versions`, you should be switched to `1.17.3` automatically. I recommend [ASDF](https://github.com/asdf-vm/asdf) for those on platforms that support it.
 
 ### Installation
 
-You will need to install two Golang packages.
+Dependencies are tracked in the `go.mod`.  They should be downloaded automatically the first time
+you run the main program or the tests.
 
 ```
-$ go get -u github.com/elliotchance/pie
-$ go get -u github.com/franela/goblin
+$ go test
+go: downloading github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf
+go: downloading github.com/elliotchance/pie v1.39.0
+
+AOC
+...
 ```
 
 ### File Structure
