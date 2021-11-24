@@ -3,7 +3,7 @@ package day25
 import (
   "fmt"
 
-  "../../pkg/reader"
+  "aoc/2020/pkg/reader"
 )
 
 

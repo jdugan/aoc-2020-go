@@ -1,7 +1,7 @@
 package main
 
 import (
-  "../pkg/day25"
+  "aoc/2020/pkg/day25"
 )
 
 func main () {

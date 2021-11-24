@@ -5,7 +5,7 @@ import (
 
   "github.com/elliotchance/pie/pie"
 
-  "../../pkg/reader"
+  "aoc/2020/pkg/reader"
 )
 
 
