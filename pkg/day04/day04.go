@@ -4,7 +4,7 @@ import (
   "fmt"
   "strings"
 
-  "../../pkg/reader"
+  "aoc/2020/pkg/reader"
 )
 
 

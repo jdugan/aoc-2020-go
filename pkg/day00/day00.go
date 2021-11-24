@@ -5,7 +5,7 @@ import (
 
   "github.com/elliotchance/pie/pie"
 
-  "../../pkg/reader"
+  "aoc/2020/pkg/reader"
 )
 
 
@@ -32,6 +32,6 @@ func Puzzle2() int {
 
 func data () pie.Strings {
   lines := reader.Lines("./data/day00/input.txt")
-  
+
   return lines
 }
