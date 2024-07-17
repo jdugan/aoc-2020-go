@@ -1,6 +1,6 @@
 module aoc/2020
 
-go 1.17
+go 1.22
 
 require (
 	github.com/elliotchance/pie v1.39.0 // indirect
