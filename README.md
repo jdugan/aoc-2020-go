@@ -50,7 +50,7 @@ package of your choice.
 Then execute the following command in your terminal from the project root.
 
 ```
-$ go run cmd/main.go
+$ make run
 ```
 
 ### Running Tests
@@ -65,5 +65,5 @@ To execute the tests, simply execute the following command in
 your terminal from the project root.
 
 ```
-$ go test
+$ make verify
 ```
